@@ -11,6 +11,21 @@ Contact: phenixio.studio@gmail.com
 
 ### What data we collect and why
 
+**Game statistics (PvE mode only — games over 60 seconds)**
+
+| Data | Purpose | Stored |
+|------|---------|--------|
+| Game outcome (victory / defeat / abandon / draw) | Display your personal statistics | Supabase servers (EU) |
+| Game duration, turn count | Display your personal statistics | Supabase servers (EU) |
+| Final life points (player & AI) | Display your personal statistics | Supabase servers (EU) |
+| AI opponent name & difficulty | Display your personal statistics | Supabase servers (EU) |
+| Spells played / countered, max damage | Display your personal statistics | Supabase servers (EU) |
+| Player names (as entered in-game) | Display participant list in history | Supabase servers (EU) |
+
+PvP games are never sent to any server.
+
+**Support system**
+
 | Data | Purpose | Stored |
 |------|---------|--------|
 | Anonymous session ID (Supabase Auth) | Identify your support session without requiring an account | Supabase servers (EU) |
@@ -19,9 +34,9 @@ Contact: phenixio.studio@gmail.com
 | Email address (optional, only if you provide it) | Allow us to reply to your ticket | Supabase servers (EU) |
 
 **We do NOT collect:**
-- Your name or identity
-- Your location
-- Gameplay data (life points, game history)
+- Your real name or identity
+- Your location or GPS data
+- PvP game data
 - Any advertising or tracking identifiers
 - Data from third parties
 
@@ -59,6 +74,21 @@ Contact : phenixio.studio@gmail.com
 
 ### Quelles données nous collectons et pourquoi
 
+**Statistiques de jeu (mode PvE uniquement — parties de plus de 60 secondes)**
+
+| Donnée | Finalité | Stockage |
+|--------|----------|----------|
+| Résultat de la partie (victoire / défaite / abandon / égalité) | Afficher vos statistiques personnelles | Serveurs Supabase (UE) |
+| Durée de la partie, nombre de tours | Afficher vos statistiques personnelles | Serveurs Supabase (UE) |
+| Points de vie finaux (joueur & IA) | Afficher vos statistiques personnelles | Serveurs Supabase (UE) |
+| Nom de l'adversaire IA et niveau de difficulté | Afficher vos statistiques personnelles | Serveurs Supabase (UE) |
+| Sorts joués / contrés, dégâts maximum | Afficher vos statistiques personnelles | Serveurs Supabase (UE) |
+| Noms des joueurs (tels que saisis dans le jeu) | Afficher les participants dans l'historique | Serveurs Supabase (UE) |
+
+Les parties PvP ne sont jamais envoyées à un serveur.
+
+**Système de support**
+
 | Donnée | Finalité | Stockage |
 |--------|----------|----------|
 | Identifiant de session anonyme (Supabase Auth) | Identifier votre session de support sans compte | Serveurs Supabase (UE) |
@@ -67,9 +97,9 @@ Contact : phenixio.studio@gmail.com
 | Adresse email (optionnelle, uniquement si vous la fournissez) | Vous répondre par email | Serveurs Supabase (UE) |
 
 **Nous ne collectons PAS :**
-- Votre nom ou identité
-- Votre localisation
-- Les données de jeu (points de vie, historique)
+- Votre nom ou identité réelle
+- Votre localisation ou données GPS
+- Les données des parties PvP
 - Identifiants publicitaires ou de tracking
 - Données de tiers
 
